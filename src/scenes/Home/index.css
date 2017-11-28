@@ -1,0 +1,12 @@
+.panel {
+    max-width: 290px;
+}
+.panel-strong-h4 > h4 {
+    text-align: right;
+    font-weight: 600;
+}
+
+.panel-weak-h4 {
+    text-align: left;
+    padding-left: 0;
+}

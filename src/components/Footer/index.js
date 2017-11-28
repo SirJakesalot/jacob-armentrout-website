@@ -1,12 +1,13 @@
 import React from 'react';
 import { Col, Row, Well } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
+import './index.css';
 
 export default class Footer extends React.Component {
     render() {
         return (
             <Well>
-                <Row>
+                <Row className="row-center">
                     <Col xsOffset={3} xs={3}>
                         <Row>
                             <SocialIcon url="https://github.com/sirjakesalot" />
