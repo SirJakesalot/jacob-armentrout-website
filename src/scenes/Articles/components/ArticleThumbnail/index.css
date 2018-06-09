@@ -1,6 +1,6 @@
-img {
+.thumbnail img {
     width: 256px;
 }
-h3, p {
+.thumbnail h3, .thumbnail p {
     text-align: center;
 }

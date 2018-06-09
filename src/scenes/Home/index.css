@@ -1,12 +1,16 @@
-.panel {
-    max-width: 290px;
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
 }
-.panel-strong-h4 > h4 {
-    text-align: right;
-    font-weight: 600;
+.flex-row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }
-
-.panel-weak-h4 {
-    text-align: left;
-    padding-left: 0;
+.flex-row.row:after,
+.flex-row.row:before {
+  display: flex;
+}
+.flex-row img {
+  max-width: 50%;
+  max-height: 256px;
 }

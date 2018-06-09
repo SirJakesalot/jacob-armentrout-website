@@ -27,7 +27,8 @@ export default class Header extends React.Component {
                         </LinkContainer>
                     </Nav>
                     <Nav pullRight>
-                        <HeaderButton text="Resume" style="success"/>
+                        <HeaderButton text="Resume" bsStyle="success"/>
+
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
