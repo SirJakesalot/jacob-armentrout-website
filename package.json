@@ -2,7 +2,7 @@
   "name": "jacob-armentrout",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/SirJakesalot/jacob-armentrout-website",
+  "homepage": "https://sirjakesalot.github.io/jacob-armentrout-website",
   "dependencies": {
     "react": "^16.0.0",
     "react-ace": "^5.7.0",
