@@ -16,16 +16,8 @@ export default class Articles extends React.Component {
             <div>
                 <PageHeader>Articles</PageHeader>
                 <Row className="show-grid row-no-padding flex-row">
-                    <Tile src={logos['ansible']} to="/ansible-hello-world" title="Hello World" subtitle1="subtitle1" internal/>
-                    <Tile src={logos['ansible']} to="/ansible-hello-world" title="Hello World" subtitle1="subtitle1" internal/>
-                    <Tile src={logos['ansible']} to="/ansible-hello-world" title="Hello World" subtitle1="subtitle1" internal/>
-                    <Tile src={logos['ansible']} to="/ansible-hello-world" title="Hello World" subtitle1="subtitle1" internal/>
+                    <Tile src={logos['ansible']} to="/ansible-hello-world" title="Hello World" subtitle1="Quick ansible example" internal/>
                     <Tile src={logos['redhat']} to="/ansible-hello-world" title="Hello World" subtitle1="subtitle1" internal/>
-                    <Tile src={logos['redhat']} to="/ansible-hello-world" title="Hello World" subtitle1="subtitle1" internal/>
-                    <Tile src={logos['redhat']} to="/ansible-hello-world" title="Hello World" subtitle1="subtitle1" internal/>
-                    <Tile src={logos['python']} to="/ansible-hello-world" title="Hello World" subtitle1="subtitle1" subtitle2="really really really really really long subtitile2" internal/>
-                    <Tile src={logos['python']} to="/ansible-hello-world" title="Hello World" subtitle1="subtitle1" internal/>
-                    <Tile src={logos['python']} to="/ansible-hello-world" title="Hello World" subtitle1="subtitle1" internal/>
                     <Tile src={logos['python']} to="/ansible-hello-world" title="Hello World" subtitle1="subtitle1" internal/>
                 </Row>
             </div>

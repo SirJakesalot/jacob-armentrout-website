@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageHeader, Col, Row, Image, Thumbnail } from 'react-bootstrap';
+import { PageHeader, Row, Image } from 'react-bootstrap';
 import './index.css';
 import Tile from './../../components/Tile';
 export default class Home extends React.Component {
@@ -17,13 +17,13 @@ export default class Home extends React.Component {
                 <PageHeader>Image Gallery About Me</PageHeader>
                 <Row className="show-grid row-no-padding flex-row">
                     <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/bamboo_forest_stream.jpg" alt="No image found" />
-                    <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/Bell.jpg" alt="No image found" />
+                    <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/bell.jpg" alt="No image found" />
                     <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/big_ben.jpg" alt="No image found" />
                     <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/boardgames.jpg" alt="No image found" />
                     <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/makena_landing.jpg" alt="No image found" />
                     <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/fallout4.jpg" alt="No image found" />
                     <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/foosball.jpg" alt="No image found" />
-                    <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/Guinness.jpg" alt="No image found" />
+                    <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/guinness.jpg" alt="No image found" />
                     <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/jakes_tutorials.jpg" alt="No image found" />
                     <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/kittens.jpg" alt="No image found" />
                     <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/escape_room.jpeg" alt="No image found" />
@@ -31,7 +31,7 @@ export default class Home extends React.Component {
                     <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/ping_pong.jpg" alt="No image found" />
                     <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/raspberry_pi.jpg" alt="No image found" />
                     <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/skyrim.jpg" alt="No image found" />
-                    <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/Turtle.JPG" alt="No image found" />
+                    <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/turtle.jpg" alt="No image found" />
                     <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/uci.png" alt="No image found" />
                     <Image src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/xmas_tree.jpg" alt="No image found" />
                 </Row>
