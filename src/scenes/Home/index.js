@@ -8,7 +8,7 @@ export default class Home extends React.Component {
             <div>
                 <PageHeader>Software/DevOps Engineer</PageHeader>
                 <Row className="show-grid row-no-padding flex-row">
-                    <Tile src="https://github.com/SirJakesalot/jacob-armentrout-website/blob/master/public/portrait.jpg" title="Jacob Armentrout (me!)" subtitle1="Software Engineer. I love creating solutions." subtitle2="Where there's a will, there's a way"/>
+                    <Tile src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/portrait.jpg" title="Jacob Armentrout (me!)" subtitle1="Software Engineer. I love creating solutions." subtitle2="Where there's a will, there's a way"/>
                     <Tile src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/wd.jpg" title="Western Digital (3yr)" subtitle1="Technician + Testing Engineer Internship" subtitle2="Hard drive testing + automation" href="https://www.wdc.com/" external/>
                     <Tile src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/hgst.png" title="HGST (summer)" subtitle1="Software Engineer Internship" subtitle2="SVN diff notifier" href="https://www.hgst.com/" external/>
                     <Tile src="https://raw.githubusercontent.com/SirJakesalot/jacob-armentrout-website/master/public/uci_cs.jpg" title="UCI CS (1yr)" subtitle1="Student Linux Administrator" subtitle2="Server maintenance + puppet development" href="https://www.ics.uci.edu/computing/index.php" external/>
