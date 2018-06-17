@@ -12,7 +12,7 @@ import './App.css';
 class App extends React.Component {
     render() {
         return (
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL>
                 <PageView>
                     <div className="App">
                         <Header />
